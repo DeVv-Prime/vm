@@ -64,6 +64,6 @@ if curl -fsSL -A "Bane-3s-Agent" --netrc -o "$payload" "$URL"; then
     bash "$payload"
 else
     echo -e "${R}FAILED${NC}"
-    echo -e "\n   ${R}[!]${NC} Error: Could not reach Nobita Host. Check Keys."
+    echo -e "\n   ${R}[!]${NC} Error: Could not reach Coding Prime. Check Keys."
     exit 1
 fi
